@@ -1,0 +1,13 @@
+<?php
+if($page=="create-coresubpreparationmenu"){
+	$found=include("views/pages/ui/coresubpreparationmenu/create_coresubpreparationmenu.php");
+}elseif($page=="edit-coresubpreparationmenu"){
+	$found=include("views/pages/ui/coresubpreparationmenu/edit_coresubpreparationmenu.php");
+}elseif($page=="core_sub_preparationmenus"){
+	$found=include("views/pages/ui/coresubpreparationmenu/manage_coresubpreparationmenu.php");
+}elseif($page=="details-coresubpreparationmenu"){
+	$found=include("views/pages/ui/coresubpreparationmenu/details_coresubpreparationmenu.php");
+}elseif($page=="view-coresubpreparationmenu"){
+	$found=include("views/pages/ui/coresubpreparationmenu/view_coresubpreparationmenu.php");
+}
+?>

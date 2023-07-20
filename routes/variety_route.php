@@ -1,0 +1,13 @@
+<?php
+if($page=="create-variety"){
+	$found=include("views/pages/ui/variety/create_variety.php");
+}elseif($page=="edit-variety"){
+	$found=include("views/pages/ui/variety/edit_variety.php");
+}elseif($page=="varieties"){
+	$found=include("views/pages/ui/variety/manage_variety.php");
+}elseif($page=="details-variety"){
+	$found=include("views/pages/ui/variety/details_variety.php");
+}elseif($page=="view-variety"){
+	$found=include("views/pages/ui/variety/view_variety.php");
+}
+?>

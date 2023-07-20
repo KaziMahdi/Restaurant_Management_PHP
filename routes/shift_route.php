@@ -1,0 +1,13 @@
+<?php
+if($page=="create-shift"){
+	$found=include("views/pages/ui/shift/create_shift.php");
+}elseif($page=="edit-shift"){
+	$found=include("views/pages/ui/shift/edit_shift.php");
+}elseif($page=="shifts"){
+	$found=include("views/pages/ui/shift/manage_shift.php");
+}elseif($page=="details-shift"){
+	$found=include("views/pages/ui/shift/details_shift.php");
+}elseif($page=="view-shift"){
+	$found=include("views/pages/ui/shift/view_shift.php");
+}
+?>

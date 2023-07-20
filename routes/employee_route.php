@@ -1,0 +1,13 @@
+<?php
+if($page=="create-employee"){
+	$found=include("views/pages/ui/employee/create_employee.php");
+}elseif($page=="edit-employee"){
+	$found=include("views/pages/ui/employee/edit_employee.php");
+}elseif($page=="employees"){
+	$found=include("views/pages/ui/employee/manage_employee.php");
+}elseif($page=="details-employee"){
+	$found=include("views/pages/ui/employee/details_employee.php");
+}elseif($page=="view-employee"){
+	$found=include("views/pages/ui/employee/view_employee.php");
+}
+?>

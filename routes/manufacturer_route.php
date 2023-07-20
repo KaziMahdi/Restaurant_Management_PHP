@@ -1,0 +1,13 @@
+<?php
+if($page=="create-manufacturer"){
+	$found=include("views/pages/ui/manufacturer/create_manufacturer.php");
+}elseif($page=="edit-manufacturer"){
+	$found=include("views/pages/ui/manufacturer/edit_manufacturer.php");
+}elseif($page=="manufacturers"){
+	$found=include("views/pages/ui/manufacturer/manage_manufacturer.php");
+}elseif($page=="details-manufacturer"){
+	$found=include("views/pages/ui/manufacturer/details_manufacturer.php");
+}elseif($page=="view-manufacturer"){
+	$found=include("views/pages/ui/manufacturer/view_manufacturer.php");
+}
+?>

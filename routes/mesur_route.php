@@ -1,0 +1,13 @@
+<?php
+if($page=="create-mesur"){
+	$found=include("views/pages/ui/mesur/create_mesur.php");
+}elseif($page=="edit-mesur"){
+	$found=include("views/pages/ui/mesur/edit_mesur.php");
+}elseif($page=="mesurs"){
+	$found=include("views/pages/ui/mesur/manage_mesur.php");
+}elseif($page=="details-mesur"){
+	$found=include("views/pages/ui/mesur/details_mesur.php");
+}elseif($page=="view-mesur"){
+	$found=include("views/pages/ui/mesur/view_mesur.php");
+}
+?>

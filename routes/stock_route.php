@@ -1,0 +1,13 @@
+<?php
+if($page=="create-stock"){
+	$found=include("views/pages/ui/stock/create_stock.php");
+}elseif($page=="edit-stock"){
+	$found=include("views/pages/ui/stock/edit_stock.php");
+}elseif($page=="stocks"){
+	$found=include("views/pages/ui/stock/manage_stock.php");
+}elseif($page=="details-stock"){
+	$found=include("views/pages/ui/stock/details_stock.php");
+}elseif($page=="view-stock"){
+	$found=include("views/pages/ui/stock/view_stock.php");
+}
+?>

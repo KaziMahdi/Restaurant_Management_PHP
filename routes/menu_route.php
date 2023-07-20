@@ -1,0 +1,13 @@
+<?php
+if($page=="create-menu"){
+	$found=include("views/pages/ui/menu/create_menu.php");
+}elseif($page=="edit-menu"){
+	$found=include("views/pages/ui/menu/edit_menu.php");
+}elseif($page=="menus"){
+	$found=include("views/pages/ui/menu/manage_menu.php");
+}elseif($page=="details-menu"){
+	$found=include("views/pages/ui/menu/details_menu.php");
+}elseif($page=="view-menu"){
+	$found=include("views/pages/ui/menu/view_menu.php");
+}
+?>

@@ -1,0 +1,13 @@
+<?php
+if($page=="create-booking"){
+	$found=include("views/pages/ui/booking/create_booking.php");
+}elseif($page=="edit-booking"){
+	$found=include("views/pages/ui/booking/edit_booking.php");
+}elseif($page=="bookings"){
+	$found=include("views/pages/ui/booking/manage_booking.php");
+}elseif($page=="details-booking"){
+	$found=include("views/pages/ui/booking/details_booking.php");
+}elseif($page=="view-booking"){
+	$found=include("views/pages/ui/booking/view_booking.php");
+}
+?>

@@ -1,0 +1,13 @@
+<?php
+if($page=="create-expenstion"){
+	$found=include("views/pages/ui/expenstion/create_expenstion.php");
+}elseif($page=="edit-expenstion"){
+	$found=include("views/pages/ui/expenstion/edit_expenstion.php");
+}elseif($page=="expenstions"){
+	$found=include("views/pages/ui/expenstion/manage_expenstion.php");
+}elseif($page=="details-expenstion"){
+	$found=include("views/pages/ui/expenstion/details_expenstion.php");
+}elseif($page=="view-expenstion"){
+	$found=include("views/pages/ui/expenstion/view_expenstion.php");
+}
+?>

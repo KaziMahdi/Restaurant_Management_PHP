@@ -1,0 +1,1 @@
+update ng_customers set name='Habib Kazi',mobile='012457695478',email='md@gmail.com',password='145896',country_id='1',street_address='Dhanmondi',city='Dhaka',postcode='1420',apartment='2nd flower'

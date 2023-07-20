@@ -1,0 +1,13 @@
+<?php
+if($page=="create-orderdetail"){
+	$found=include("views/pages/ui/orderdetail/create_orderdetail.php");
+}elseif($page=="edit-orderdetail"){
+	$found=include("views/pages/ui/orderdetail/edit_orderdetail.php");
+}elseif($page=="order_details"){
+	$found=include("views/pages/ui/orderdetail/manage_orderdetail.php");
+}elseif($page=="details-orderdetail"){
+	$found=include("views/pages/ui/orderdetail/details_orderdetail.php");
+}elseif($page=="view-orderdetail"){
+	$found=include("views/pages/ui/orderdetail/view_orderdetail.php");
+}
+?>

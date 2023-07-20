@@ -1,0 +1,13 @@
+<?php
+if($page=="create-requisition"){
+	$found=include("views/pages/ui/requisition/create_requisition.php");
+}elseif($page=="edit-requisition"){
+	$found=include("views/pages/ui/requisition/edit_requisition.php");
+}elseif($page=="requisitions"){
+	$found=include("views/pages/ui/requisition/manage_requisition.php");
+}elseif($page=="details-requisition"){
+	$found=include("views/pages/ui/requisition/details_requisition.php");
+}elseif($page=="view-requisition"){
+	$found=include("views/pages/ui/requisition/view_requisition.php");
+}
+?>

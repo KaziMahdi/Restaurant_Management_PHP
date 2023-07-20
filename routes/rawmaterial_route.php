@@ -1,0 +1,13 @@
+<?php
+if($page=="create-rawmaterial"){
+	$found=include("views/pages/ui/rawmaterial/create_rawmaterial.php");
+}elseif($page=="edit-rawmaterial"){
+	$found=include("views/pages/ui/rawmaterial/edit_rawmaterial.php");
+}elseif($page=="raw_materials"){
+	$found=include("views/pages/ui/rawmaterial/manage_rawmaterial.php");
+}elseif($page=="details-rawmaterial"){
+	$found=include("views/pages/ui/rawmaterial/details_rawmaterial.php");
+}elseif($page=="view-rawmaterial"){
+	$found=include("views/pages/ui/rawmaterial/view_rawmaterial.php");
+}
+?>

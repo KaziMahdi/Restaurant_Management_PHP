@@ -1,0 +1,13 @@
+<?php
+if($page=="create-stockadjustmenttype"){
+	$found=include("views/pages/ui/stockadjustmenttype/create_stockadjustmenttype.php");
+}elseif($page=="edit-stockadjustmenttype"){
+	$found=include("views/pages/ui/stockadjustmenttype/edit_stockadjustmenttype.php");
+}elseif($page=="stock_adjustment_types"){
+	$found=include("views/pages/ui/stockadjustmenttype/manage_stockadjustmenttype.php");
+}elseif($page=="details-stockadjustmenttype"){
+	$found=include("views/pages/ui/stockadjustmenttype/details_stockadjustmenttype.php");
+}elseif($page=="view-stockadjustmenttype"){
+	$found=include("views/pages/ui/stockadjustmenttype/view_stockadjustmenttype.php");
+}
+?>

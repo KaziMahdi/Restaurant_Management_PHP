@@ -1,0 +1,1 @@
+insert into core_expenstions(employee_id,booking_id,prepare_date,sale_date,remark,prepare_total)values('18','2','2023-05-22','2023-05-22','','50Kg')
